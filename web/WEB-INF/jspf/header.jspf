@@ -1,0 +1,49 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/handed down.css">
+        <title> Handed Kart</title>
+   
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="widgetbar">
+                    
+                    <div class="headerwidget">
+                        <a href="cart.jsp" target="cart.jsp">sopping cart widget 
+                   
+                        </a>
+                       
+                    </div>
+                    
+                    <div class="headerwidget">
+                        <a href="#">
+                            Login & SignUp
+                        </a>
+                    </div>  
+                </div>
+                <a href="#">
+                    <img src="#" id="logo" alt="handed kart logo">
+                </a>
+                
+                <img src="#" id="logotext" alt=" The handed kart" >
+                
+            </div>
+            <script>
+                function StartTime() {
+                    var today = new Date();
+                    var h = today.gethours();
+                    var m = today.getMinutes();
+                    var s  = today.getSeconds();
+                    m = checkTime(m);
+                    s = checkTime(s);
+                    document.getElementById('text').innerHTML =
+                            h + ":" + m + ":" + s;
+                    var t = setTimeout(startTime, 500);
+                    
+                }
+            </script>
+                

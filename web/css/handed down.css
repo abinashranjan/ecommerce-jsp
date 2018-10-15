@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 13, 2018, 4:22:37 AM
+    Author     : avina
+*/
+
+body{
+    font-family: arial, Helvetica, sans-serif;
+    width: border-box;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+#main{ background: #eee; }
+
+#header{
+    height: 300px;
+    background: #99ff00;
+    
+}
+
+#indexLeftColumn{
+    height: 630px;
+    width: 600px;
+    float: left;
+    background: #666600;
+}
+#indexRightColumn{
+    height: 630px;
+    width: 749px;
+    float: left;
+    background: #f3f333;
+
+}
+
+#footer{
+    height: 90px;
+    width: border-box;
+    clear: both;
+    background: #aaa;
+    
+}
+
+
+#logo{
+    /*height: 150px;*/
+    width: 155px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    
+}
+
+#logotext{
+    float: left;
+    margin: 20px 0 0 70px;
+    font-family: 'American typewriter', courier, monospace;
+    font-size: 50px;
+    color: #009999;
+}
+
+#widgetbar{
+    height: 50px;
+    width: 1366px;
+    float: right;
+    background: #ccc;
+}
+
+
+.headerwidget{
+    width: 194px;
+    margin: 20px 3px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #666600;
+}
+
+
+.categoryBox{
+    height: 176px;
+    width: 212px;
+    margin: 21px 14px 6px;
+    float: inherit;
+    background: #ccc;
+    
+}
+
+.categorylabelText{
+        line-height: 150px;
+        font-size: large;
+        
+}
+
+
+hr{
+    border: 0;
+    background-color: #993300;
+    height: 1px;
+    margin: 0 2px;
+    width: 300px;
+}
+
+
+#welcomeText{
+    font-size: x-large
+}
+
+#footerText{
+    background-color: #ccffcc;
+}
+
+#navigationbar{
+    height: 60px;
+    width: 1366px;
+    float: left;
+    padding: 0;
+    background-color: white;
+    
+}
+
+.nav{
+    height: border-box;
+    width: fit-content;
+    background-color: red;
+    float: left;
+    padding: 0;
+    inline-box-align: initial;
+}
+
+
+li{
+    width:190px;
+    height: 50px;
+    background-color: white;
+    padding: 0;
+    font-size: small;
+    float: left-right;
+}
